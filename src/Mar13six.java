@@ -17,8 +17,6 @@ public class Mar13six {
             }
         }
 
-
-
         if (found){
             //B - A = ageDis => dis + a = b
             int myYear = (((ageDis + animalYears) % 12) + 12) % 12;
