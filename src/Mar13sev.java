@@ -18,7 +18,8 @@ public class Mar13sev {
             double w2 = Double.parseDouble(data2[2]);
             double bmi2 = w2 / (h2 * h2);
 
-            return Double.compare(bmi1,  bmi2);
+            // From the highest to the lowest
+            return Double.compare(bmi2,  bmi1);
         });
 
         System.out.println(Arrays.toString(spl));
