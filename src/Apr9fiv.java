@@ -8,14 +8,14 @@ public class Apr9fiv {
         int stringIndex = 0;
 
         for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board.length; j++) {
+            for (int j = 0; j < board[0].length; j++) {
                 board[i][j] = input.charAt(stringIndex);
                 stringIndex++;
             }
         }
 
         for (int row = 0; row < board.length; row++) {
-            for (int col = 0; col < board.length; col++) {
+            for (int col = 0; col < board[0].length; col++) {
                 if (board[row][col] == 'x'){
                     System.out.print("x ");
                 }else {
