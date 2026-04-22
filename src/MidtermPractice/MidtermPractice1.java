@@ -1,8 +1,8 @@
 package MidtermPractice;
 
 /*
-"Given an N x M matrix,
-print all its elements in clockwise spiral order."
+ * Given an N x M matrix,
+ * print all its elements in clockwise spiral order.
  */
 
 import java.util.Scanner;
