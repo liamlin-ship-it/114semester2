@@ -33,7 +33,7 @@ public class fiv {
             }
         }
 
-        // If the loop finishes and we haven't returned,
+        // If the loop finishes, and we haven't returned,
         // the missing number is beyond the array
         return num[num.length - 1] + target;
     }
